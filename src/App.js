@@ -25,6 +25,7 @@ function App() {
   return (
     <div className="App">
       <LoginScreen/>
+      <h1>Hello</h1>
     </div>
   );
 }
