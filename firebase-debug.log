@@ -45,3 +45,73 @@ Before we get started, keep in mind:
 [info] will contain Hosting assets to be uploaded with firebase deploy. If you
 [info] have a build process for your assets, use your build's output directory.
 [info] 
+[debug] [2024-07-04T15:04:28.937Z] ----------------------------------------------------------------------
+[debug] [2024-07-04T15:04:28.941Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pczep\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-07-04T15:04:28.942Z] CLI Version:   13.13.0
+[debug] [2024-07-04T15:04:28.942Z] Platform:      win32
+[debug] [2024-07-04T15:04:28.942Z] Node Version:  v21.1.0
+[debug] [2024-07-04T15:04:28.943Z] Time:          Thu Jul 04 2024 20:34:28 GMT+0530 (India Standard Time)
+[debug] [2024-07-04T15:04:28.943Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-04T15:04:29.042Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-04T15:04:29.043Z] > authorizing via signed-in user (paarthchandna48@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\pczep\Desktop\my-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-07-04T15:05:23.263Z] Using project from CLI flag: netlflix-gpt
+[debug] [2024-07-04T15:05:23.268Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netlflix-gpt [none]
+[debug] [2024-07-04T15:05:24.048Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netlflix-gpt 200
+[debug] [2024-07-04T15:05:24.049Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netlflix-gpt {"projectId":"netlflix-gpt","projectNumber":"878946852651","displayName":"netlflix-gpt","name":"projects/netlflix-gpt","resources":{"hostingSite":"netlflix-gpt"},"state":"ACTIVE","etag":"1_357171fb-582b-493e-8d89-e16edf2f3f4e"}
+[info] i  Using project netlflix-gpt (netlflix-gpt) 
+[info] 
+=== Hosting Setup
+[debug] [2024-07-04T15:05:24.069Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netlflix-gpt [none]
+[debug] [2024-07-04T15:05:24.455Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netlflix-gpt 200
+[debug] [2024-07-04T15:05:24.455Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netlflix-gpt {"projectId":"netlflix-gpt","projectNumber":"878946852651","displayName":"netlflix-gpt","name":"projects/netlflix-gpt","resources":{"hostingSite":"netlflix-gpt"},"state":"ACTIVE","etag":"1_357171fb-582b-493e-8d89-e16edf2f3f4e"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2024-07-04T15:05:31.311Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-07-04T15:05:31.519Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-07-04T15:05:31.519Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.12.3","browserURL":"https://www.gstatic.com/firebasejs/10.12.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.12.3/firebase.tgz"},"live":{"version":"10.12","browserURL":"https://www.gstatic.com/firebasejs/live/10.12/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.12/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.12.3/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.12.3/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.12.3/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.12.3/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.12.3/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.12.3/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.12.3/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.12.3/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.12.3/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.12.3/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.12.3/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.12.3/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.12.3/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.12.3/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.12.3/firebase-database.js","vertexai-preview":"https://www.gstatic.com/firebasejs/10.12.3/firebase-vertexai-preview.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.12.3/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\pczep\Desktop\my-app 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=366097113&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-07-04T15:05:36.756Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-07-04T15:05:36.756Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-07-04T15:05:37.398Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-07-04T15:05:37.398Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-07-04T15:05:37.404Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-07-04T15:05:37.944Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-07-04T15:05:37.944Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"PaarthcDNA","id":123871567,"node_id":"U_kgDOB2IhTw","avatar_url":"https://avatars.githubusercontent.com/u/123871567?v=4","gravatar_id":"","url":"https://api.github.com/users/PaarthcDNA","html_url":"https://github.com/PaarthcDNA","followers_url":"https://api.github.com/users/PaarthcDNA/followers","following_url":"https://api.github.com/users/PaarthcDNA/following{/other_user}","gists_url":"https://api.github.com/users/PaarthcDNA/gists{/gist_id}","starred_url":"https://api.github.com/users/PaarthcDNA/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/PaarthcDNA/subscriptions","organizations_url":"https://api.github.com/users/PaarthcDNA/orgs","repos_url":"https://api.github.com/users/PaarthcDNA/repos","events_url":"https://api.github.com/users/PaarthcDNA/events{/privacy}","received_events_url":"https://api.github.com/users/PaarthcDNA/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":8,"public_gists":0,"followers":0,"following":0,"created_at":"2023-01-29T11:29:55Z","updated_at":"2024-06-13T09:28:16Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":1107,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as PaarthcDNA 
+[info] 
