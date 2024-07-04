@@ -9,7 +9,7 @@ const LoginScreen = () => {
                 <div className="absolute  bg-gradient-to-b from-black  ">
                 <img className=" w-44" src={Logo}></img>
                 </div>
-                <SignInUp/>
+                <SignInUp></SignInUp>
                 <img src={BG_URL}></img>
          
 
